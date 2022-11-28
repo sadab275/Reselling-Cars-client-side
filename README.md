@@ -1,3 +1,56 @@
+Website Name : Reselling Cars Live Link : https://reselling-cars.web.app/
+Website overview: It as a second hand car selling website. From where a buyer can select and book a car from there along with that a seller can also sell any of their car with details information. An Admin route also created, an admin can able to see both buyers and sellers.
+
+adminEmail: admin@gmail.com
+
+adminPassword: 111111
+
+Functionality:
+
+* Front-end created with React.js, CSS, TailwindCSS, DaisyUi.
+* Backend created with MongoDB.
+* From home component a user can see the category of cars.
+* From there a user can go to a details section where the similar categories cars are posted with detailed information. A user can book a car to and give personal information to see the seller according to the location.
+* There is also a Dashboard section from where a buyer can see my orders, sellers can add a product and also see my products and admin can see all the users.
+* Also a user can see all of his review in My review section from navbar but needs to login first.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

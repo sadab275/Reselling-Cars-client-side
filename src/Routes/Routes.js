@@ -40,7 +40,7 @@ const router = createBrowserRouter([
             {
                 path: '/allProducts/:id',
                 element: <SubCategories></SubCategories>,
-                loader: ({ params }) => fetch(`http://localhost:5000/allProducts/${params.id}`)
+                loader: ({ params }) => fetch(`https://reselling-car-server.vercel.app/allProducts/${params.id}`)
             }
         ]
     },
@@ -64,7 +64,7 @@ const router = createBrowserRouter([
             {
                 path: '/dashboard/allProducts/:email',
                 element: <MyProducts></MyProducts>,
-                loader: ({ params }) => fetch(`http://localhost:5000/allProducts/${params.email}`)
+                loader: ({ params }) => fetch(`https://reselling-car-server.vercel.app/allProducts/${params.email}`)
             },
             {
                 path: '/dashboard/addproducts',

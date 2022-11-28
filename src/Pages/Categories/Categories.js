@@ -11,7 +11,7 @@ const Categories = () => {
 
     const { data: categoriesall = [], isLoading } = useQuery({
         queryKey: ['allCategories'],
-        queryFn: () => fetch('http://localhost:5000/allCategories')
+        queryFn: () => fetch('https://reselling-car-server.vercel.app/allCategories')
             .then(res => res.json())
     });
     if (isLoading) {

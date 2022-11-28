@@ -7,7 +7,7 @@ const AllAvailableProdcuts = () => {
 
     const { data: datas = [] } = useQuery({
         queryKey: ['allProducts'],
-        queryFn: () => fetch('http://localhost:5000/allProducts')
+        queryFn: () => fetch('https://reselling-car-server.vercel.app/allProducts')
             .then(res => res.json())
     });
 
