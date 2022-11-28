@@ -14,11 +14,12 @@ const AddProducts = () => {
 
         queryKey: ['Catagory'],
         queryFn: async () => {
-            const res = await fetch(`http://localhost:5000/brands`);
+            const res = await fetch(`http://localhost:5000/allCategories`);
             const data = await res.json();
             return data;
         }
-    })
+    });
+    console.log("cateee", categoriesall);
 
     const handleAddProducts = data => {
 
