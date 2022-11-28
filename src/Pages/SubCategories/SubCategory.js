@@ -12,8 +12,8 @@ const SubCategory = ({ subCategory, setModalDetails }) => {
             <div className="card-body">
                 <h2 className="card-title font-bold text-info text-center">{Brand_name}</h2>
                 <p className='text-lime-800 bg-orange-300'>Seller Name: {Seller_name}</p>
-                <p className='text-lime-800 bg-orange-700'>Location: {Location}</p>
-                <p className='text-lime-800 bg-orange-700'>Original Price: {Original_Price}</p>
+                <p className='text-lime-800 bg-emerald-400'>Location: {Location}</p>
+                <p className='text-lime-800 bg-green-400'>Original Price: {Original_Price}</p>
                 <p className='text-lime-800 bg-amber-300'>Resell_Price: {Resell_Price}</p>
                 <p className='text-lime-800 bg-yellow-500'>Years_of_Use: {Years_of_Use}</p>
                 <p className='text-lime-800 bg-rose-500'>Posted_Time: {Posted_Time}</p>
