@@ -35,7 +35,7 @@ const Blogs = () => {
                 <div className="collapse-content bg-primary text-primary-content group-focus:bg-secondary group-focus:text-secondary-content">
                     <p>Angular is a front-end framework with lots of components, services, and tools. On Angular’s site, you can see that they define Angular as:
 
-                        “The modern web developer’s platform”
+                        “The modern web developer's platform”
 
                         It is developed and maintained by Google developers, but curiously it is not used to implement any of their most common products such as Search or YouTube.
 

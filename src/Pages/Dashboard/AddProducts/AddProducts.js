@@ -10,7 +10,7 @@ const AddProducts = () => {
     const { user } = useContext(AuthContext);
     const { register, handleSubmit, formState: { errors } } = useForm('');
 
-    const { data: allCategories, isLoading, refetch } = useQuery({
+    const { data: categoriesall, isLoading, refetch } = useQuery({
 
         queryKey: ['Catagory'],
         queryFn: async () => {
@@ -137,7 +137,7 @@ const AddProducts = () => {
                     <select {...register('category_id')} className="select select-bordered w-full max-w-xs">
 
                         {
-                            allCategories.map(catagory =>
+                            categoriesall.map(catagory =>
                                 <option key={catagory.id}
                                     value={catagory.category_id}>{catagory.category_id}</option>
                             )
