@@ -25,7 +25,7 @@ const Blogs = () => {
                     What is a unit test? Why should we write unit tests?
                 </div>
                 <div className="collapse-content bg-primary text-primary-content group-focus:bg-secondary group-focus:text-secondary-content">
-                    <p>The main objective of unit testing is to isolate written code to test and determine if it works as . Unit testing is an important step in the development process, because if done correctly, it can help detect early flaws in code which may be more difficult to find in later testing stages.</p>
+                    <p>The main objective of unit testing is to isolate written code to test and determine if it works as intended. Unit testing is an important step in the development process, because if done correctly, it can help detect early flaws in code which may be more difficult to find in later testing stages.</p>
                 </div>
             </div>
             <div tabIndex={0} className="collapse group">
