@@ -54,7 +54,7 @@ const AllUsers = () => {
                                 <td>{user.email}</td>
                                 <td>{user.type}</td>
                                 <td>
-                                    <label onClick={() => setDeleteUser(user)} htmlFor="confirmation-modal" className="btn btn-xs btn-primary">Delete</label>
+                                    <label onClick={() => setDeleteUser(user)} htmlFor="confirmation-modal" className="btn btn-xs btn-error">Delete</label>
                                 </td>
 
                             </tr>)

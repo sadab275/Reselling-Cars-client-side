@@ -11,13 +11,13 @@ const SubCategory = ({ subCategory, setModalDetails }) => {
 
             <div className="card-body">
                 <h2 className="card-title font-bold text-info text-center">{Brand_name}</h2>
-                <p className='text-lime-800'>Seller Name: {Seller_name}</p>
-                <p className='text-lime-800'>Location: {Location}</p>
-                <p className='text-lime-800'>Original Price: {Original_Price}</p>
-                <p className='text-lime-800'>Resell_Price: {Resell_Price}</p>
-                <p className='text-lime-800'>Years_of_Use: {Years_of_Use}</p>
-                <p className='text-lime-800'>Posted_Time: {Posted_Time}</p>
-                <p className='text-lime-800'>category_id: {category_id}</p>
+                <p className='text-lime-800 bg-orange-300'>Seller Name: {Seller_name}</p>
+                <p className='text-lime-800 bg-orange-700'>Location: {Location}</p>
+                <p className='text-lime-800 bg-orange-700'>Original Price: {Original_Price}</p>
+                <p className='text-lime-800 bg-amber-300'>Resell_Price: {Resell_Price}</p>
+                <p className='text-lime-800 bg-yellow-500'>Years_of_Use: {Years_of_Use}</p>
+                <p className='text-lime-800 bg-rose-500'>Posted_Time: {Posted_Time}</p>
+                <p className='text-lime-800 bg-lime-400'>category_id: {category_id}</p>
                 <div className="card-actions justify-end">
                     <label onClick={() => setModalDetails(subCategory)} htmlFor="Booking-modal" className="btn btn-info">Book Now</label>
                 </div>
