@@ -16,7 +16,7 @@ const SubCategory = ({ subCategory, setModalDetails }) => {
                 <p className='text-lime-800 bg-green-400'>Original Price: {Original_Price}</p>
                 <p className='text-lime-800 bg-amber-300'>Resell_Price: {Resell_Price}</p>
                 <p className='text-lime-800 bg-yellow-500'>Years_of_Use: {Years_of_Use}</p>
-                <p className='text-lime-800 bg-rose-500'>Posted_Time: {Posted_Time}</p>
+                <p className='text-lime-800 bg-red-50'>Posted_Time: {Posted_Time}</p>
                 <p className='text-lime-800 bg-lime-400'>category_id: {category_id}</p>
                 <div className="card-actions justify-end">
                     <label onClick={() => setModalDetails(subCategory)} htmlFor="Booking-modal" className="btn btn-info">Book Now</label>
