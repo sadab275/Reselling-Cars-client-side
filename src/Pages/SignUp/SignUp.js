@@ -8,8 +8,8 @@ const variants = ['Buyer', 'Seller'];
 
 const SignUp = () => {
     const navigate = useNavigate();
-    const location = useLocation();
-    const from = location.state?.from?.pathname || '/';
+    // const location = useLocation();
+    // const from = location.state?.from?.pathname || '/';
 
     const { register, handleSubmit, formState: { errors } } = useForm('');
 
